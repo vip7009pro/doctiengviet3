@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-  namespace = "com.cmsbando.erp"
+  namespace = "com.hnp.gplx600"
   compileSdk = 34
 
   defaultConfig {
-    applicationId = "com.cmsbando.erp"
+    applicationId = "com.hnp.gplx600"
     minSdk = 24
     targetSdk = 34
     versionCode = 1
@@ -70,6 +70,7 @@ dependencies {
   implementation ("androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha03")
   kapt ("androidx.hilt:hilt-compiler:1.1.0")
   implementation ("androidx.hilt:hilt-navigation-compose:1.1.0")
+  implementation("com.google.accompanist:accompanist-pager:0.33.2-alpha")
   debugImplementation("androidx.compose.ui:ui-tooling")
   debugImplementation("androidx.compose.ui:ui-test-manifest")
 }
