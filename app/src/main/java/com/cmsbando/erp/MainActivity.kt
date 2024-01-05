@@ -23,7 +23,6 @@ import com.cmsbando.erp.pages.nhansu.DiemDanhNhom
 import com.cmsbando.erp.theme.CMSVTheme
 
 class MainActivity : ComponentActivity() {
-
   @RequiresApi(Build.VERSION_CODES.Q)
   @RequiresExtension(extension = Build.VERSION_CODES.S, version = 7)
   override fun onCreate(savedInstanceState: Bundle?) {
@@ -56,14 +55,14 @@ fun MainApp() {
       DiemDanhNhom().DiemDanhNhomScreen(navController = navController, globalVar = globalVar)
     }
   }
-
 }
 
+@RequiresApi(Build.VERSION_CODES.Q)
 @RequiresExtension(extension = Build.VERSION_CODES.S, version = 7)
 @Preview(showBackground = true, showSystemUi = true)
 @Composable
 fun GreetingPreview() {
   CMSVTheme {
-
+    MainApp()
   }
 }

@@ -75,7 +75,6 @@ class Home {
 
     val drawerState = rememberDrawerState(initialValue = DrawerValue.Closed)
     val scope = rememberCoroutineScope()
-    //val globalVar = viewModel<GlobalVariable>()
     val currentContext = LocalContext.current
     val menuData = listOf(
       ErpInterface.MenuData(route = "nhansubophan",
@@ -395,7 +394,7 @@ class Home {
       ) { paddingValues ->
 
         Column(modifier = Modifier.padding(top = 40.dp)) {
-          Text(text = globalVar.userData.EMPL_NO)
+          Text(text = globalVar.userData.EMPL_NO + " Đây rồi 3 !")
           Text(text = globalVar.currentServer)
           Button(onClick = {
             globalVar.userData = ErpInterface.Employee(
@@ -452,7 +451,6 @@ class Home {
           }
           paddingValues
         }
-
       }
 
     }
