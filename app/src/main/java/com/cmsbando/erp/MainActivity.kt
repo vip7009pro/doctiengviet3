@@ -37,7 +37,6 @@ class MainActivity : ComponentActivity() {
   }
 }
 
-
 @RequiresApi(Build.VERSION_CODES.Q)
 @RequiresExtension(extension = Build.VERSION_CODES.S, version = 7)
 @Composable
