@@ -1,4 +1,4 @@
-package com.cmsbando.erp.pages
+package com.hnp.gplx600.pages
 
 import android.os.Build
 import android.util.Log
@@ -56,13 +56,13 @@ import androidx.core.graphics.toColorInt
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
 import coil.compose.AsyncImage
-import com.cmsbando.erp.R
-import com.cmsbando.erp.api.ErpInterface
-import com.cmsbando.erp.api.GlobalVariable
-import com.cmsbando.erp.api.LocalData
-import com.cmsbando.erp.components.MyDialog
-import com.cmsbando.erp.components.NavigationDrawerMenu
-import com.cmsbando.erp.theme.CMSVTheme
+import com.hnp.gplx600.R
+import com.hnp.gplx600.api.ErpInterface
+import com.hnp.gplx600.api.GlobalVariable
+import com.hnp.gplx600.api.LocalData
+import com.hnp.gplx600.components.MyDialog
+import com.hnp.gplx600.components.NavigationDrawerMenu
+import com.hnp.gplx600.theme.CMSVTheme
 import com.guru.fontawesomecomposelib.FaIcon
 import com.guru.fontawesomecomposelib.FaIcons
 import kotlinx.coroutines.launch
